@@ -37,5 +37,6 @@ namespace Homework_2
         {
             return currentYear - HireYear;
         }
+
    }
 }

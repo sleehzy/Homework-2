@@ -8,29 +8,26 @@ namespace Homework_2
 {
     public class Triangle
     {
-        private double A;
-        private double B;
-        private double C;
+        private double a, b, c;
 
         public Triangle(double a, double b, double c)
         {
-            A = a;
-            B = b;
-            C = c;
+            this.a = a;
+            this.b = b;
+            this.c = c;
         }
 
+       
         public double GetPerimeter()
         {
-            return A + B + C;
+            return a + b + c;
         }
 
-        public void Info()
+       
+        public void PrintInfo()
         {
-            Console.WriteLine("Стороны треугольника:");
-            Console.WriteLine($" a = {A}");
-            Console.WriteLine($" b = {B}");
-            Console.WriteLine($" c = {C}");
-            Console.WriteLine($"Периметр: {GetPerimeter()}");
+            Console.WriteLine($"Стороны треугольника: a = {a}, b = {b}, c = {c}");
+            Console.WriteLine($"Периметр треугольника: {GetPerimeter()}");
         }
 
     }

@@ -29,7 +29,7 @@ namespace Homework_2
             return Math.PI * r * r;
         }
 
-        public void PrintInfo()
+        public void PrintInfoCircle()
         {
             Console.WriteLine($"Центр окружности: ({x}; {y}), радиус: {r}");
             Console.WriteLine($"Длина окружности: {GetCircumference():F3}");
